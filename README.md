@@ -1,6 +1,8 @@
-# Automatizacion QA - Saucedemo
+# Pre-Entrega Automation Testing
 
-Proyecto de automatizacion de pruebas realizado con python para el curso de Talento Tech.
+Proyecto realizado para la pre-entrega del curso de Automation QA de Talento Tech (GCBA).
+
+El objetivo del proyecto es realizar pruebas automatizadas sobre el sitio SauceDemo utilizando Selenium WebDriver y Pytest.
 
 ## Tecnologias usadas
 - Python
