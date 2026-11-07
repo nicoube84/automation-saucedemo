@@ -12,4 +12,9 @@ def test_login_exitoso(driver,data):
 
     login_page.login(data["usuario"],data["password"])
 
-    assert "/inventory.html" in driver.current_url
+    if (data["tipo_usuario"] == "True"):
+        assert "/inventory.html" in driver.current_url
+    elif (data["tipo_usuario"] == "False"):
+        error = login_page.obtener_mensaje_error()
+        print(error)
+        assert "Epic sadface" in error
