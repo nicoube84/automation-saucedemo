@@ -14,7 +14,7 @@ def test_inventory(driver):
     assert len(productos) > 0
 
     assert inventory_page.obtener_nombre_primer_producto() == "Sauce Labs Backpack"
-    assert inventory_page.obtener_precio_primer_producto() == "$29.99"
+    assert inventory_page.obtener_precio_primer_producto() == "29.99"
 
     assert inventory_page.menu_visible()
     assert inventory_page.filtro_visible()
